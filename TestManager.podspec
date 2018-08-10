@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/maomao520benben/TestManager'
+  s.homepage         = 'https://github.com/xiaheng666/TestManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'maomao520benben' => 'key@xiaheng.net' }
-  s.source           = { :git => 'https://github.com/maomao520benben/TestManager.git', :tag => s.version.to_s }
+  s.author           = { 'xiaheng666' => 'key@xiaheng.net' }
+  s.source           = { :git => 'git@github.com:xiaheng666/TestManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +38,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'JPush', '~> 3.0.6'   # 极光推送
+  s.dependency 'JCore', '~> 1.1.5'    # 极光推送
+  s.dependency 'EBForeNotification', '~> 1.0.7'# 极光推送
 end

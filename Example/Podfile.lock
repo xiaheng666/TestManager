@@ -1,0 +1,16 @@
+PODS:
+  - TestManager (0.1.0)
+
+DEPENDENCIES:
+  - TestManager (from `../`)
+
+EXTERNAL SOURCES:
+  TestManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestManager: 452b4e4579cfa470e6de61cd58da3bcb952e1357
+
+PODFILE CHECKSUM: 9c6ec9ba3637629649d81503969e2b0878fd8991
+
+COCOAPODS: 1.5.3
