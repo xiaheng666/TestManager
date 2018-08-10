@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TestManager_Example' do
+  pod 'TestManager', :path => '../'
+
+  target 'TestManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
